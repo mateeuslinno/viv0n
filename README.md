@@ -1,2 +1,2 @@
 # viv0n
-Vulnerability modem - Vivo
+Exploit for vulnerability in modem/routers vivo Br
