@@ -19,11 +19,11 @@ puts"`8b  d8'    88    `8b  d8' 88 d' 88 88 V8o88 "
 puts" `8bd8'    .88.    `8bd8'  `88  d8' 88  V888 "
 puts"   YP    Y888888P    YP     `Y88P'  VP   V8P "
 puts "\n"                                             
-puts "Mateus Alves "                           
+puts "Reescrito por>Habil "                           
 puts "\n"
 
 
- api = Shodan::Shodan.new("INSERT YOUR API SHODAN")
+ api = Shodan::Shodan.new("ydlDFEesB6dmjdw3YBBaG4eCFN8gM7j0")
 		result = api.search("org:'Vivo' /wizard ")
 		result['matches'].each{ |host|
 		host_ip =  host['ip_str']
